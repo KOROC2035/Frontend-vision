@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { UploadCloud, Target, Palette, WandSparkles, X, Loader2, Copy, Check, Info, Sun, Moon, Zap } from 'lucide-react';
 
-const BACKEND_URL = 'https://backend-vision-4nwd.onrender.com';
+const BACKEND_URL = 'https://backend-vision-4nwd.onrender.com/analyze-ad';
 
 // --- Composant pour gérer la copie au presse-papier avec feedback ---
 const CopyableText = ({ text, index }) => {
